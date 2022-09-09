@@ -1,5 +1,5 @@
 # readingList
 
-A list of articles I've read. View it here: https://pages.tdpain.net/readingList. Automatically updated by a button I press on another service somewhere else.
+A list of articles I've read. View it here: https://read.zanshin.net.
 
-You might find my blog post about this interesting: https://www.tdpain.net/blog/a-year-of-reading
+Based on this blog posting:: https://www.tdpain.net/blog/a-year-of-reading
