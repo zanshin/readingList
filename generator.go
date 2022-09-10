@@ -23,9 +23,10 @@ func renderHTMLPage(title string, body []g.Node) ([]byte, error) {
 	b := new(bytes.Buffer)
 	err := c.HTML5(c.HTML5Props{
 		Title:    title,
-		Language: "en-GB",
-		Head:     []g.Node{Link(g.Attr("rel", "stylesheet"), g.Attr("href", "https://www.tdpain.net/assets/css/ghpages.css"), g.Attr("type", "text/css"))},
-		Body:     []g.Node{Div(g.Attr("class", "container"), g.Group(body))},
+		Language: "en-US",
+		// Head:     []g.Node{Link(g.Attr("rel", "stylesheet"), g.Attr("href", "https://www.tdpain.net/assets/css/ghpages.css"), g.Attr("type", "text/css"))},
+		Head: []g.Node{Link(g.Attr("rel", "stylesheet"), g.Attr("href", "https://zanshin.github.io/readingList/styles.css"), g.Attr("type", "text/css"))},
+		Body: []g.Node{Div(g.Attr("class", "container"), g.Group(body))},
 	}).Render(b)
 	if err != nil {
 		return nil, err
@@ -182,7 +183,7 @@ func GenerateSite() error {
 	numArticles := len(entries)
 	groupedEntries := groupEntriesByMonth(entries)
 
-	const pageTitle = "akp's reading list"
+	const pageTitle = "zanshin's reading list"
 
 	head := Div(
 		H1(g.Text(pageTitle)),
