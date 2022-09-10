@@ -25,6 +25,10 @@ ol, ul {
   list-style: circle;
 }
 
+li {
+  margin-left: 40;
+}
+
 :focus {
   outline: 0;
 }
@@ -56,7 +60,7 @@ container{
   padding-right: 40px;
 }
 
-containerp {
+container p {
   padding-right: 40px;
   padding-bottom: 10px;
 }
