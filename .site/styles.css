@@ -34,9 +34,6 @@ h1:hover a:empty, h2:hover a:empty, h3:hover a:empty,
 h4:hover a:empty, h5:hover a:empty, h6:hover a:empty {
   visibility: visible;
 }
-li {
-  padding: 1em;
-}
 img {
   max-width: 100%;
 }
@@ -111,4 +108,11 @@ th, td {
   th, td {
     border-color: #666;
   }
+}
+
+li {
+  padding: .5em;
+}
+container {
+  width: 800px;
 }
