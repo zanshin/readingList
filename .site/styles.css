@@ -116,3 +116,6 @@ li {
 container {
   width: 75%;
 }
+body {
+  width: 960px;
+}
