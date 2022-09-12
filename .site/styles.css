@@ -34,6 +34,9 @@ h1:hover a:empty, h2:hover a:empty, h3:hover a:empty,
 h4:hover a:empty, h5:hover a:empty, h6:hover a:empty {
   visibility: visible;
 }
+li {
+  margin-bottom: 1em;
+}
 img {
   max-width: 100%;
 }
